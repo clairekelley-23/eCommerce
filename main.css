@@ -1,17 +1,74 @@
-*,
+/* *,
 *::before
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
+} */
 
 html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-h1 {
-    color: blueviolet;
+body {
+    font-family: 'Segoe UI';
+    background-color: white;
+    color: black;
+    margin: 1rem;
 }
 
+header {
+    background-color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    color: black;
+    position: relative;
+    left: 30px;
+}
+
+
+main section.Home img {
+    margin: 1rem auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+main img {
+    height: 300;
+    width: 200;
+}
+
+.mundo_bowls {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    display: inline-block;
+}
+.natureza_pots {
+    width: 1000px;
+    margin: 0 auto 0 auto;
+    display: inline-block;
+}
+.container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-right {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
