@@ -18,15 +18,24 @@ body {
     margin: 1rem;
 }
 
+a img {
+    border-image-width: 30px;
+}
+
 header {
     background-color: white;
     padding: 1rem;
+    font-size: x-small;
+    width: fit-content;
 }
 
-nav ul {
+header.div {
+    font-size: x-small;
+}
+header.nav.ul {
     color: black;
     position: relative;
-    left: 30px;
+    width: fit-content;
 }
 
 
@@ -38,7 +47,6 @@ main section.Home img {
 
 main img {
     height: 300;
-    width: 200;
 }
 
 .mundo_bowls {
@@ -57,6 +65,7 @@ main img {
 
 .text-block {
     position: absolute;
+    font-size: x-large;
     top: 20px;
     left: 20px;
     color: white;
@@ -66,9 +75,22 @@ main img {
 
 .text-right {
     position: absolute;
+    font-size: x-large;
     bottom: 20px;
     right: 20px;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.about_us {
+    display: block;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 60%;
+}
+.image_about {
+    width: 300px;
 }
