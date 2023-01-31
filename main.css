@@ -1,10 +1,10 @@
-/* *,
+*,
 *::before
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-} */
+}
 
 html {
     box-sizing: border-box;
@@ -18,36 +18,58 @@ body {
     margin: 1rem;
 }
 
-a img {
-    border-image-width: 30px;
-}
-
 header {
     background-color: white;
-    padding: 1rem;
     font-size: x-small;
     width: fit-content;
 }
 
-header.div {
-    font-size: x-small;
+ul .navigation-links {
+    display: flex;
+    align-items: stretch;
 }
-header.nav.ul {
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 1;
+    border: 2;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+
+
+header ul {
     color: black;
     position: relative;
-    width: fit-content;
+    width: 200%;
 }
 
-
+.logo-image {
+    height: 20px;
+    width: 20px;
+}
 main section.Home img {
     margin: 1rem auto;
     width: 100%;
     object-fit: contain;
 }
 
-main img {
-    height: 300;
+.about-us {
+    display: flex;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    margin-left: 3rem;
+    width: contain;
 }
+
+.about-us h1 {
+    width: 50%;
+}
+
 
 .mundo_bowls {
     width: 1000px;
@@ -83,14 +105,13 @@ main img {
     padding-right: 20px;
 }
 
-.about_us {
-    display: block;
-    margin-top: 5em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    width: 60%;
+
+
 }
-.image_about {
-    width: 300px;
+.intro-para {
+    display: flex;
+    justify-content: flex-start;
+    
 }
+
+
