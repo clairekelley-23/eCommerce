@@ -7,30 +7,51 @@
     <link href="main.css" rel="stylesheet"></link>
     <title>CARA CARA</title>
 <style>
-   hr.ul {
-    border: none;
-    height: 1px;
-    width: 1800;
+   hr {
+    border: black;
+    height: 2px;
+    width: 91.5%;
     background: black;
+    font: bold;
+    margin-top: 0rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
    }
+
+    main hr {
+    border: black;
+    height: 2px;
+    width: 50%;
+   }
+
+    .grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+   }
+
   
 </style>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="navigation-links">
-                <a href="">HOME</a>
+        <nav class="header-container">
+            <ul class="nav-links">
+                <a href="">HOME</a> 
                 <a href="">PRODUCTS</a>
                 <a href="">ABOUT</a>
                 <a href="">CONTACT</a>
+            </ul>
+            <ul class="title-image">    
                 <a>CARA <img class="logo-image" src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/icons8-pottery-96.png" alt="Animated Pot"> CARA</a>
+            </ul>
+            <ul class="search-cart">
                 <a><input>
                     <a href="">Cart(0)</a>
-                </a></div>
-                <hr>
+                </div>
             </ul>
         </nav>
+        <hr>
     </header>
     <main>
         <div class="container">
@@ -47,71 +68,91 @@
             </div>
         </div>
 
-        <h1 class="about-us">ABOUT US</h1>
-            <ul><hr></ul>
-            <div>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
-                faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
-                ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
-                risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
-                amet commodo.</div>
-                <br>
-            <div class="vase">
-                 <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/Vase_Dame_2048x2048.jpg" alt="flower vase white tip" height="300px" width="200px">
+        <section>
+            <h1>ABOUT US</h1>
+            <hr>
+            <div class="grid-container">
+                <div class="vase-photo">
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/Cylinder_unglazed3_2048x2048.jpg" alt="flower vase fallen" height="500px" width="350px">
                 </div>
-            <p class="second-para">
-                Nulla porttitor massa id neque aliquam
-                vestibulum morbi. Facilisi nullam vehicula
-                ipsum a arcu cursus vitae congue. Nam libero
-                justo laoreet sit amet cursus sit amet dictum.
-                Tristique magna sit amet purus gravida quis.
-                Velit euismod in pellentesque massa placerat.
-                In ante metus dictum at tempor commodo.
-                Libero nunc consequat interdum varius sit
-                amet mattis. Egestas sed sed risus pretium
-                quam vulputate dignissim. Diam phasellus
-                vestibulum lorem sed risus. Cursus sit amet
-                dictum sit amet justo donec enim.
-                Tincidunt praesent semper feugiat nibh sed.
-                Vulputate mi sit amet mauris commodo quis
-                imperdiet massa. Amet tellus cras adipiscing
-                enim eu turpis egestas pretium aenean.
-                Nullam ac tortor vitae purus
-            </p>
+                <div class="about-us">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
+                    faucibus nisl tincidunt. Facilisis mauris sit amet massa. Senectus et netus et malesuada fames
+                    ac turpis egestas maecenas. Odio aenean sed adipiscing diam donec adipiscing tristique
+                    risus nec. Sagittis id consectetur purus ut faucibus. Elit duis tristique sollicitudin nibh sit
+                    amet commodo.<br></div>
+                    <br>
+                    <div class="flower-vase">
+                        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/Vase_Dame_2048x2048.jpg" alt="flower vase white tip" height="300px" width="200px" hspace="20"></div>
+                <div class="second-para">Nulla porttitor massa id neque aliquam
+                    vestibulum morbi. Facilisi nullam vehicula
+                    ipsum a arcu cursus vitae congue. Nam libero
+                    justo laoreet sit amet cursus sit amet dictum.
+                    Tristique magna sit amet purus gravida quis.
+                    Velit euismod in pellentesque massa placerat.
+                    In ante metus dictum at tempor commodo.
+                    Libero nunc consequat interdum varius sit
+                    amet mattis. Egestas sed sed risus pretium
+                    quam vulputate dignissim. Diam phasellus
+                    vestibulum lorem sed risus. Cursus sit amet
+                    dictum sit amet justo donec enim.
+                    <br>
+                    <br>
+                    Tincidunt praesent semper feugiat nibh sed.
+                    Vulputate mi sit amet mauris commodo quis
+                    imperdiet massa. Amet tellus cras adipiscing
+                    enim eu turpis egestas pretium aenean.
+                    Nullam ac tortor vitae purus 
+                </div>
+                
+                
+            </div>
+
+        
         </div>
         </section>
-        
-        <h2>OUR PRODUCTS</h2>
-    
-    <div class="mundow_row">
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-7HuTGlUfQSo-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/oriento-maVIpNNtmlQ-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-bgIO-u4GEfI-unsplash.jpg" width="250" height="250" hspace="20"/>
-    </div> 
-    <div class="natureza_pots">
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-3uwu5K0RtaE-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/linh-le-a0rE64YJDA4-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-oiZAQvxTcYQ-unsplash.jpg" width="250" height="250" hspace="20"/>
-    </div>
-    <div class="serivco_plates">
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-YA2E3d7a9Wo-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/oriento-l0ah3UBLppo-unsplash.jpg" width="250" height="250" hspace="20"/>
-        <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-SITGdvztUdg-unsplash.jpg" width="250" height="250" hspace="20"/>
-    </div>
-</body>
+
+        <br>
+        <section>
+            <h2>OUR PRODUCTS</h2>
+            <hr>
+            <div class="products" style="justify-content: space-evenly;">
+                <div class="mundow_row">
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-7HuTGlUfQSo-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/oriento-maVIpNNtmlQ-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-bgIO-u4GEfI-unsplash.jpg" width="250" height="250" hspace="20"/>
+                </div> 
+                <div class="natureza_pots">
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-3uwu5K0RtaE-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/linh-le-a0rE64YJDA4-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-oiZAQvxTcYQ-unsplash.jpg" width="250" height="250" hspace="20"/>
+                </div>
+                <div class="serivco_plates">
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-YA2E3d7a9Wo-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/oriento-l0ah3UBLppo-unsplash.jpg" width="250" height="250" hspace="20"/>
+                    <img src="assets/eCommerceWebsiteAssets_GN_Starter-main/eCommerceWebsiteAssets_GN_Starter-main/tom-crew-SITGdvztUdg-unsplash.jpg" width="250" height="250" hspace="20"/>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>CONTACT US</h3>
+            <hr>
+            <form class="contact">
+                <label>EMAIL<br></label>
+                    <textarea class="text-area"></textarea>
+                <br>
+                <label>MESSAGE<br></label>
+                    <textarea class="text-area2"></textarea>
+                    <br>
+                    <br>
+                <input type="submit" value="SEND">
+            </form>
+</body> 
             
                 
-    <section>
-            <h3>CONTACT US</h3>
-            <p>
-                EMAIL<br>
-                <input><br><br>
-                MESSAGE<br>
-                <input>
-            </p>
-        </section>  
-    -->
+      
+
 
 
 

@@ -1,10 +1,10 @@
-*,
+/* *,
 *::before
 *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
+} */
 
 html {
     box-sizing: border-box;
@@ -18,60 +18,81 @@ body {
     margin: 1rem;
 }
 
-header {
-    background-color: white;
-    font-size: x-small;
-    width: fit-content;
-}
-
-ul .navigation-links {
+nav.header-container {
     display: flex;
-    align-items: stretch;
-}
-
-
-nav {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: stretch;
-    padding: 1;
-    border: 2;
-    margin-left: 3rem;
-    margin-right: 3rem;
 }
 
-
-
-header ul {
+ul.nav-links {
     color: black;
-    position: relative;
-    width: 200%;
+}
+
+ul.title-image {
+    margin-top: 0rem;
+    font-size: medium;
+}
+
+ul.search-cart {
+    margin-top: .5rem;
+    margin-right: 4rem;
 }
 
 .logo-image {
     height: 20px;
     width: 20px;
 }
-main section.Home img {
-    margin: 1rem auto;
-    width: 100%;
-    object-fit: contain;
+
+main h1 {
+    margin-left: 4rem;
+    font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .about-us {
-    display: flex;
-    margin-top: 3em;
-    margin-bottom: 1em;
+    grid-row-start: 1;
+    grid-column-start: span 2;
+}
+
+.second-para {
+    grid-column-start: 2 span 3 span 4;
+    grid-row-start: 2 span 3;
+}
+
+.flower-vase {
+    grid-column-start: 1;
+    grid-row-start: 2 span 3;
+}
+
+.vase-photo {
+    grid-row-start: 1 span 4;
+    grid-column-start: 4;
+   
+}
+
+.container2 {
+    margin-left: 5rem;
+}
+
+main h2 {
+    margin-left: 4rem;
+    font-size: large;
+}
+div.products {
+    margin-top: 4rem;
     margin-left: 3rem;
-    width: contain;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 30px;
+    column-gap: 50px;
 }
 
-.about-us h1 {
-    width: 50%;
-}
-
-
-.mundo_bowls {
+.mundow_row {
     width: 1000px;
     margin: 0 auto 0 auto;
     display: inline-block;
@@ -81,12 +102,46 @@ main section.Home img {
     margin: 0 auto 0 auto;
     display: inline-block;
 }
-.container {
-    position: relative;
+
+main h3 {
+    margin-left: 4rem;
+    font-size: large;
 }
 
+.contact {
+    float: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: x-small;
+}
+
+.contact input {
+    float: right;
+    background-color: #bf7631;
+    color: #ffffff;
+    font-size: x-small; 
+    border: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 15px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.text-area2 {
+    min-height: 120px;
+}
+
+label {
+    text-align: left;
+}
 .text-block {
     position: absolute;
+    float: center;
     font-size: x-large;
     top: 20px;
     left: 20px;
@@ -97,6 +152,7 @@ main section.Home img {
 
 .text-right {
     position: absolute;
+    float: center;
     font-size: x-large;
     bottom: 20px;
     right: 20px;
@@ -105,13 +161,5 @@ main section.Home img {
     padding-right: 20px;
 }
 
-
-
-}
-.intro-para {
-    display: flex;
-    justify-content: flex-start;
-    
-}
 
 
