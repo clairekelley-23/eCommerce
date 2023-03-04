@@ -84,6 +84,7 @@ main h2 {
     font-size: large;
 }
 div.products {
+    display: inline-block;
     margin-top: 4rem;
     margin-left: 3rem;
     gap: 10px;
@@ -92,11 +93,16 @@ div.products {
     column-gap: 50px;
 }
 
-.mundow_row {
-    width: 1000px;
-    margin: 0 auto 0 auto;
-    display: inline-block;
+.mundow_row img {
+    flex: 33.33%;
+    padding: 5px;
 }
+.mundow_row {
+    text-align: left;  
+    width: 33.33%;
+    margin: 0 auto 0 auto;  
+}
+
 .natureza_pots {
     width: 1000px;
     margin: 0 auto 0 auto;
@@ -161,5 +167,18 @@ label {
     padding-right: 20px;
 }
 
+
+
+footer {
+    background-color: #bf7631;
+    margin-top: 8rem;
+    width: 0 auto;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 
