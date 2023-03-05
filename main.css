@@ -26,7 +26,17 @@ nav.header-container {
 
 ul.nav-links {
     color: black;
+    justify-content: space-evenly;
 }
+
+.nav-links a {
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    width: 25%;
+}
+
 
 ul.title-image {
     margin-top: 0rem;
@@ -55,11 +65,16 @@ main h1 {
 }
 
 .about-us {
+    font-size: small;
+    float: left;
+    margin-left: 10rem;
     grid-row-start: 1;
     grid-column-start: span 2;
 }
 
 .second-para {
+    float: center;
+    font-size: small;
     grid-column-start: 2 span 3 span 4;
     grid-row-start: 2 span 3;
 }
@@ -83,31 +98,59 @@ main h2 {
     margin-left: 4rem;
     font-size: large;
 }
-div.products {
-    display: inline-block;
+.products {
+    display: flex;
+    flex-direction: row;
     margin-top: 4rem;
     margin-left: 3rem;
     gap: 10px;
     gap: 10px 20px;
     row-gap: 30px;
     column-gap: 50px;
+    justify-content: space-between;
 }
-
-.mundow_row img {
-    flex: 33.33%;
-    padding: 5px;
-}
-.mundow_row {
-    text-align: left;  
-    width: 33.33%;
-    margin: 0 auto 0 auto;  
-}
-
-.natureza_pots {
-    width: 1000px;
-    margin: 0 auto 0 auto;
+.row {
+    vertical-align: top;
     display: inline-block;
+    text-align: left;
+    width: 250px;
+    font-size: small;
 }
+
+.row p {
+    font-size: large;
+    margin-left: 2rem;
+    display: block;
+}
+
+.row span {
+    font-size: small;
+    margin-left: 2rem;
+    display: block;
+}
+
+.row hr {
+    margin-left: 2rem;
+}
+
+.learn-more {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    display: block;
+}
+
+.learn-more a {
+    color: #bf7631;
+}
+
+.learn-more input {
+    background-color: #bf7631;
+    color: white;
+    border: none;
+    float: right;
+}
+
 
 main h3 {
     margin-left: 4rem;
@@ -178,7 +221,38 @@ footer {
 .footer-icons {
     display: flex;
     flex-direction: row;
+    margin: 1rem;
+    padding: 2rem 2rem;
     justify-content: center;
+    justify-content: space-evenly;
 }
 
+.icons-2 a {
+    justify-content: baseline;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.icons p {
+    vertical-align: bottom;
+}
+
+.icons-3 {
+    text-align: vertical;
+}
+
+.icons img {
+    float: inline-end;
+}
+
+/* .copyright {
+    display: flex;
+    justify-content: right;
+}
+.copyright span {
+    position: absolute;
+    float: bottom;
+    margin-bottom: 13px;
+    
+} */
 
